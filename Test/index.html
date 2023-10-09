@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <title>SW사관학교 정글 | 간단메모</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+              
+        .ver2-button {
+            background-color: gray;
+            color: white;
+            border: none;
+        }
+        .ver3-button {
+            background-color: green;
+            color: white;
+            border: none;
+        }
+
+        .wrap {
+            margin: auto;
+            width: 1000px;
+        }
+        .comment {
+            font-weight: bold;
+            color:darkgray;
+        }
+
+        .comment {
+            font-weight: bold;
+            color: blue;
+        }
+
+        .posting-box {
+            margin-right: 800px;
+            width:500px;
+
+            padding: 25px;
+        }
+
+        .posting-box2 {
+            margin-right: 800px;
+            width:300px;
+
+            padding: 25px;
+        }
+        .card-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            }
+            
+        .mod-title {
+            font-size: 1.0em;
+            font-weight: bold;
+            }
+                
+
+        .mod-text{
+            font-size: 1.0em;
+            font-weight: bold;
+            height: 100px;
+        }
+
+              
+      
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="jumbotron">
+            <h1 class="display-4"> 나홀로 링크 메모장! 
+                <button class="btn btn-primary btn-lg ver2-button" href="#" role="button">VER2.0</button>
+            </h1>
+            <div class="posting-box" id="post-box">
+                <div class="form-group">
+                    <input title="head" type="text" class="form-control" aria-describedby="headHelp"
+                        placeholder="제목을 입력하세요">            
+                    </div>
+                <div class="form-group">
+                    <input text="text" class="form-control" placeholder="내용을 입력하세요">
+                </div>
+                <button type="submit" class="btn btn-primary">저장하기 </button>
+             
+            </div>
+        </div>
+       
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-title">첫번쨰 제목을 입력합니다.</p>
+                    <p class="card-text"><b>첫번째 내용을 입력합니다.</b></p>
+                    <p class="card-text comment">
+                        <button class="btn btn-primary btn-sm ver2-button" href="#" role="button">수정</button>
+                        <button class="btn btn-danger btn-sm ver2-button" href="#" role="button">삭제</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body " >
+                    <p class="card-title">두번쨰 제목을 입력합니다.</p>
+                    <p class="card-text"><b>두번째 내용을 입력합니다.</b></p>
+                    <button class="btn btn-primary btn-sm ver2-button" href="#" role="button">수정</button>
+                    <button class="btn btn-danger btn-sm ver2-button" href="#" role="button">삭제</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-title">세번쨰 제목을 입력합니다.</p>
+                    <p class="card-text"><b>세번째 내용을 입력합니다.</b></p>
+                    <button class="btn btn-primary btn-sm ver2-button" href="#" role="button">수정</button>
+                    <button class="btn btn-danger btn-sm ver2-button" href="#" role="button">삭제</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="posting-box2" id="post-box2">
+                    <div class="form-group">
+                        <input type="text" class="form-control mod-title" placeholder="k번째 제목">           
+                    </div>
+                <div class="form-group">
+                    <input type="text" class="form-control mod-text" placeholder="k번째 내용">
+                    </div>
+                    <button class="btn btn-primary btn-sm ver3-button" href="#" role="button">수정</button>
+                    
+                    
+            </div>
+           </div>
+           </div>
+           </div>
+           </div>
+        </div>
+    </div>
+</body>
+
+</html>
